@@ -6,5 +6,5 @@ Thanks to https://dev.to/younup/cmake-on-stm32-the-beginning-3766
 # Build Instructions
 
 ```
-cmake -b build . -DCMAKE_TOOLCHAIN_FILE=toolchain-arm-none-eabi.cmake
+cmake -B build -S . -DCMAKE_TOOLCHAIN_FILE=toolchain-arm-none-eabi.cmake
 ```
